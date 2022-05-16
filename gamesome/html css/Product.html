@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamesome | Product</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="header">
+        <div class="logo">
+            <img src="./assets/images/gamesome.png" alt="gamesome" />
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Category</button>
+            <div class="dropdown-content">
+                <a href="#">All</a>
+                <a href="#">Accessories</a>
+                <a href="#">External Mic</a>
+                <a href="#">Gaming Chair</a>
+                <a href="#">Headset</a>
+                <a href="#">Keyboard</a>
+                <a href="#">Monitor</a>
+                <a href="#">Mouse</a>
+                <a href="#">Mousepad</a>
+            </div>
+        </div>
+        <div class="searchBar">
+            <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
+            <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+                <img src="./assets/images/search.png" width="20" height="20" />
+            </button>
+        </div>
+        <div class="wishlist-header">
+            <button type="submit" style="border: 0; background: transparent">
+                <a href='https://twitch.tv/dzak1ng/'>
+                    <img src="./assets/images/love-header.png" width="25" height="25" />
+                </a>
+            </button>
+        </div>
+        <div class="cart-header">
+            <button type="submit" style="border: 0; background: transparent">
+                <a href='https://twitch.tv/dzak1ng/'>
+                    <img src="./assets/images/shopping-cart.png" width="25" height="25" />
+                </a>
+            </button>
+        </div>
+        <div>
+            <button class="username-header" type="submit" style="border: 0; background: transparent">
+                Dzaking
+            </button>
+        </div>
+    </div>
+    <br /><br />
+    <!-- header end -->
+
+    <div class="flex-container-landing-page">
+        <div class="flex-item-left">
+            <img src="./assets/images/mousepad.png" alt="mousepad" />
+        </div>
+        <div class="flex-item-right">
+            <div class="margin-container-right">
+                <div class="product-name">
+                    HyperX FURY S - Gaming Mouse Pad - Cloth (L)
+                </div>
+                <br />
+                <hr />
+                <br />
+                <div class="flex-container">
+                    <div class="flex-item-left">
+                        <div class="price">Rp259.000</div>
+                    </div>
+                    <div class="flex-item-right">
+                        <button class="add-to-cart-button">
+                            <a class="blue-button" href='https://twitch.tv/dzak1ng/'>
+                                Add to Cart
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <br />
+                <div class="flex-container">
+                    <div class="flex-item-left">
+                        <div class="text-align-left">
+                            <button type="submit" style="border: 0; background: transparent">
+                                <a href='https://twitch.tv/dzak1ng/'>
+                                    <img src="./assets/images/love.png" width="30" height="30" />
+                                </a>
+                            </button>
+                            <button onclick="copyText()" style="border: 0; background: transparent">
+                                <a href='#'>
+                                    <img src="./assets/images/share.png" width="30" height="30" />
+                                    <script>
+                                        function copyText() {
+                                            navigator.clipboard.writeText("twitch.tv/dzak1ng");
+                                            alert("Copied the text: twitch.tv/dzak1ng");
+                                        }
+                                    </script>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex-item-right">
+                        <button class="buy-now-button">
+                            <a class="blue-button" href='https://twitch.tv/dzak1ng/'>
+                                Buy Now
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <br />
+                <div class="text-align-left">
+                    This item is blablabla
+                    <br />The best mousepad of 2022
+                    <br />
+                    <br />
+                    Terjual 999+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <!-- footer start -->
+    <div class="footer">
+        <div class="footer-1">
+            <img src="./assets/images/gamesome-footer.png" alt="gamesome" />
+            <br />
+            Upgrade your gaming experience!
+            <br /><br />
+            Jl. Cikutra Gang IV No.4/148 B
+            <br />Neglasari, Cibeunying Kaler, Kota Bandung
+        </div>
+        <div class="footer-2">
+            <b>Company</b>
+            <br /><br />
+            <a class="footer" href='https://twitch.tv/dzak1ng/'>
+                About Us
+            </a>
+            <a class="footer" href='https://twitch.tv/dzak1ng/'>
+                FAQ
+            </a>
+            <a class="footer" href='https://twitch.tv/dzak1ng/'>
+                Terms and Condition
+            </a>
+        </div>
+        <div class="footer-3">
+            <b>Follow Us On</b>
+            <br /><br />
+            <button type="submit" style="border: 0; background: transparent">
+                <a href='https://twitch.tv/dzak1ng/'>
+                    <img src="./assets/images/facebook.png" width="36" height="36" />
+                </a>
+            </button>
+            <button type="submit" style="border: 0; background: transparent">
+                <a href='https://twitch.tv/dzak1ng/'>
+                    <img src="./assets/images/instagram.png" width="36" height="36" />
+                </a>
+            </button><button type="submit" style="border: 0; background: transparent">
+                <a href='https://twitch.tv/dzak1ng/'>
+                    <img src="./assets/images/twitter.png" width="36" height="36" />
+                </a>
+            </button>
+        </div>
+        <div class="footer-4">
+            <button class="contact-us-button">
+                <a class="contact-button" href='https://twitch.tv/dzak1ng/'>
+                    Contact Us
+                </a>
+            </button>
+        </div>
+    </div>
+    <!-- footer end -->
+</body>
+
+</html>
