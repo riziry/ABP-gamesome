@@ -337,3 +337,231 @@ a.blue-button:hover{
   text-align: right;
   font-weight: bold;
 }
+
+.background-lp {
+  width: 100%;
+  height: 800px;
+  background-image: url(./assets/images/bacground_LP.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  
+}
+
+img.lp {
+  position: absolute;
+left: 0px;
+top: 0px;
+z-index: -5;
+}
+
+
+.lp-header {
+  color: white;
+  font-size: 90px;
+  margin-left: 123px;
+  margin-top: 282px;
+  text-align: left;
+}
+
+.lp-p {
+  color: white;
+  font-size: 24px;
+  margin-left: 123px;
+  text-align: left;
+}
+
+.lp-brand {
+  width: 1194px;
+  height: 180px;
+  background-color: white;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  margin-top: 700px;
+  z-index: 1;
+  text-align: center;
+  
+}
+
+.brand-img {
+  text-align: center;
+}
+
+.image-margin {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.lp-brand-image {
+  display: flex;
+  justify-content: center;
+}
+
+.start-shopping-button {
+  margin-top: 40px;
+  width: 200px;
+  height: 60px;
+  background-color: #1D5EDD;
+  border-radius: 60px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  justify-content: left;
+}
+
+.shopping-margin {
+  display: flex;
+  justify-content: center;
+}
+
+.shopping-main {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.shopping-header {
+  font-size: 24px;
+  margin-right: 130px;
+}
+
+
+input[type=checkbox] {
+  margin-bottom: 20px;
+}
+
+.shopping-card-margin {
+  margin-right: 21px;
+  margin-top: 20px;
+}
+
+.product-card {
+  width: 195px;
+  height: 408px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+a.card:link, a.card:visited {
+  text-decoration: none;
+  color: black;
+
+}
+
+.card-p {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 14px;
+  margin-top: 16px;
+}
+
+.card-sold {
+  margin-top: 90px;
+}
+
+.availibility-margin {
+  margin-right: 64px;
+}
+
+.apply-filter-button {
+  margin-top: 20px;
+  background-color: #1D5EDD;
+  width: 153px;
+  height: 44px;
+  font-size: 14px;
+  color: white;
+  border-radius: 60px;
+  border: none;
+  font-weight: bold;
+}
+
+.apply-filter-button:hover {
+  background-color: white;
+  color: #1d5edd;
+  border: 1px;
+  border-style: solid;
+}
+
+.login-border {
+  background-color: #343434;
+  width: 100%;
+  height: 1024px;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-margin{
+  flex: 50%;
+  align-self: center;
+}
+
+.login-header {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.login-p {
+  font-size: 16px;
+  color: #00000066;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.margin-form {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.login-button {
+  background-color: #1D5EDD;
+  width: 400px;
+  height: 60px;
+  font-size: 16px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.login-google-button {
+  width: 400px;
+  height: 60px;
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #1D5EDD;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login-margin-google {
+  justify-content: center;
+  text-align: left;
+}
+
+.login-google-flex {
+  flex: 40%;
+  text-align: right;
+  padding-right: 14px;
+}
+
+.login-google-flex-right {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex: 60%;
+}
