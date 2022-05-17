@@ -382,7 +382,7 @@ z-index: -5;
   margin-top: 700px;
   z-index: 1;
   text-align: center;
-  
+  margin-left: 17%;
 }
 
 .brand-img {
@@ -412,6 +412,11 @@ z-index: -5;
   justify-content: left;
 }
 
+.start-shopping-button:hover {
+  background-color: white;
+  color: #1d5edd;
+}
+
 .shopping-margin {
   display: flex;
   justify-content: center;
@@ -425,6 +430,7 @@ z-index: -5;
 .shopping-header {
   font-size: 24px;
   margin-right: 130px;
+  margin-top: 150px;
 }
 
 
@@ -476,6 +482,7 @@ a.card:link, a.card:visited {
   border-radius: 60px;
   border: none;
   font-weight: bold;
+  margin-bottom: 100px;
 }
 
 .apply-filter-button:hover {
@@ -564,4 +571,96 @@ input[type=text], input[type=password] {
   align-items: center;
   justify-content: left;
   flex: 60%;
+}
+
+.lp-top-product-text{
+  margin-left: 20%;
+}
+
+.lp-shopping-main {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.lp-featured-product-text{
+  margin-left: 20%;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid white;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 55%;
+  border-radius: 10px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #1d5edd;
+  color: white;
+  border-radius: 10px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: white;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+
+.tab button.active:hover {
+  background-color: #1d5edd;
+  text-decoration: underline;
+  border-radius: 10px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+hr.lp{
+  margin-left: 20%;
+  margin-right: 56%;
+}
+
+.need-an-upgrade-section{
+  text-align: center;
+}
+
+.start-shopping-button-2{
+    width: 200px;
+    height: 60px;
+    background-color: #1D5EDD;
+    border-radius: 60px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    justify-content: left;
+}
+
+  .start-shopping-button-2:hover {
+    background-color: white;
+    color: #1d5edd;
 }
